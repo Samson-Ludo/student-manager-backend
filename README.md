@@ -3,7 +3,7 @@
 This is the API for a Student Manager Web App.
 The front end can be found [here](coming up).
 
-The Heroku deployed API URL: [coming up](https:coming up)
+The Heroku deployed API URL: [https://student-manager-backend.herokuapp.com/students](https://student-manager-backend.herokuapp.com/students)
 
 ## Technologies
 
