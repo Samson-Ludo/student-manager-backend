@@ -42,7 +42,7 @@ describe("GET /students/:id", function () {
   it("responds with json", function () {
     jest.setTimeout(10 * 1000);
     request(app)
-      .get("/students/611e4903ca8b4a09c08b7537")
+      .get("/students/61e5b754bf6c5d5111f24156")
       .set("Accept", "application/json")
       .expect("Content-Type", /json/)
       .expect(200)
@@ -62,10 +62,10 @@ describe("PUT /students:id", function () {
   it("responds with json", function () {
     jest.setTimeout(10 * 1000);
     request(app)
-      .put("/students/611e4903ca8b4a09c08b7537")
+      .put("/students/61e5b754bf6c5d5111f24156")
       .send({
         name: "Samson",
-        courses: ["611ea3673b2756220c5a8df8"],
+        courses: ["61e58c401715e670020153d6"],
       })
       .expect("Content-Type", /json/)
       .expect(200);

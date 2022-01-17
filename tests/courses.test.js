@@ -38,7 +38,7 @@ describe("GET /courses/:id", function () {
   it("responds with json", function () {
     jest.setTimeout(10 * 1000);
     request(app)
-      .get("/courses/611ea3673b2756220c5a8df8")
+      .get("/courses/61e58c401715e670020153d6")
       .set("Accept", "application/json")
       .expect("Content-Type", /json/)
       .expect(200)
@@ -57,8 +57,8 @@ describe("PUT /courses:id", function () {
   it("responds with json", function () {
     jest.setTimeout(10 * 1000);
     request(app)
-      .put("/courses/611ea3673b2756220c5a8df8")
-      .send({ name: "updatedTestUser" })
+      .put("/courses/61e58c401715e670020153d6")
+      .send({ name: "updatedTestCourse" })
       .expect("Content-Type", /json/)
       .expect(200);
   });
