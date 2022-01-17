@@ -34,7 +34,7 @@ router.route("/:id").put((req, res) => {
       student.name = req.body.name;
       student.courses = req.body.courses;
 
-      Student
+      student
         .save()
         .then(() => res.json(student))
         .catch((err) => res.status(400).json("Error: " + err));
