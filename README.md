@@ -1,4 +1,4 @@
-# Team Manager Backend
+# Student Course Manager Backend
 
 This is the API for a Student Manager Web App.
 The front end can be found [here](https://github.com/Samson-Ludo/student-manager-frontend).
